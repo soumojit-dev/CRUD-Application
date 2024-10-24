@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffd700;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    font-size: 2.4em;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+#item-input {
+    width: 70%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    margin-right: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#add-btn {
+    background-color: #ff6347;
+}
+
+#add-btn:hover {
+    background-color: #e5533c;
+}
+
+#update-btn {
+    background-color: #00bfff;
+}
+
+#update-btn:hover {
+    background-color: #00a1d9;
+}
+
+#item-list {
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+}
+
+#item-list li {
+    padding: 15px;
+    margin-bottom: 12px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-btn, .delete-btn {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #32cd32;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background-color: #28a428;
+}
+
+.delete-btn {
+    background-color: #ff4500;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background-color: #d73900;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7); 
+    font-style: italic;
+    pointer-events: none;
+}
